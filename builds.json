@@ -1,0 +1,7 @@
+{
+  "stm32": {
+    "basic": {
+      "flags": "HARDWARE=carrier/nucleo-f413zh-ade9430.ioc"
+    }
+  }
+}
