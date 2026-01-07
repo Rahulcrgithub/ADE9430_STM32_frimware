@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "/d/no-OS/projects/ade9430_stm32/build/ade9430_stm32.elf",
+            "name": "OpenOCD(stlink-dap)",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "stm32 Build",
+            "svdFile": "/f/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.1.0.202306151215/resources/cmsis/STMicroelectronics_CMSIS_SVD/STM32F413.svd",
+            "configFiles": [
+                "/d/no-OS/projects/ade9430_stm32/build/ade9430_stm32.elf.openocd"
+            ],
+            "searchDir": [ "/f/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.debug.openocd_2.1.0.202306221132/resources/openocd/st_scripts" ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        },
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "/d/no-OS/projects/ade9430_stm32/build/ade9430_stm32.elf",
+            "name": "OpenOCD(CMSIS-dap)",
+            "request": "launch",
+            "type": "cortex-debug",
+            "device": "cmsis-dap",
+            "servertype": "openocd",
+            "preLaunchTask": "stm32 Build",
+            "svdFile": "/f/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.productdb.debug_2.1.0.202306151215/resources/cmsis/STMicroelectronics_CMSIS_SVD/STM32F413.svd",
+            "configFiles": [
+                "/d/no-OS/projects/ade9430_stm32/build/ade9430_stm32.elf.openocd-cmsis"
+            ],
+            "searchDir": [ "/f/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.debug.openocd_2.1.0.202306221132/resources/openocd/st_scripts" ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/d/no-OS/projects/ade9430_stm32/build/app/Core/Inc/", "/d/no-OS/projects/ade9430_stm32/src/platform/stm32/", "/d/no-OS/drivers/platform/stm32/", "/d/no-OS/include", "/d/no-OS/projects/ade9430_stm32/build/app/Drivers/CMSIS/Device/ST/STM32F4xx/Include/", "/d/no-OS/projects/ade9430_stm32/build/app/Drivers/CMSIS/Include/", "/d/no-OS/projects/ade9430_stm32/build/app/Drivers/STM32F4xx_HAL_Driver/Inc/", "/d/no-OS/projects/ade9430_stm32/build/app/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/"
+            ],
+            "defines": [
+                "DEBUG", "DISABLE_SECURE_SOCKET", "NO_OS_PROJECT=ade9430_stm32", "NO_OS_VERSION=main-4bcb67087-modified", "STM32F413xx", "STM32_PLATFORM", "USE_HAL_DRIVER"
+            ],
+            "compilerPath": "/f/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
