@@ -1,0 +1,14 @@
+{
+    "tasks": [
+        {
+            "label": "stm32 Run",
+            "type": "shell",
+            "command": "make run -C ${workspaceFolder} PLATFORM=stm32 HARDWARE=carrier/nucleo-f413zh-ade9430.ioc"
+        },
+        {
+            "label": "stm32 Build",
+            "type": "shell",
+            "command": "make -C ${workspaceFolder} PLATFORM=stm32 HARDWARE=carrier/nucleo-f413zh-ade9430.ioc"
+        }        
+    ]
+}
